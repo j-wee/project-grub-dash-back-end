@@ -13,3 +13,11 @@ const nextId = require("../utils/nextId");
     Note that dishes cannot be deleted.
 
  */
+
+function list(req, res) {
+    res.json({ dishes });
+}
+
+module.exports = {
+    list
+};

@@ -11,3 +11,11 @@ const nextId = require("../utils/nextId");
 /*
     add handlers and middleware functions to create, read, update, delete, and list orders.
  */
+
+function list(req, res) {
+    res.json({ orders });
+}
+
+module.exports = {
+   list
+};
