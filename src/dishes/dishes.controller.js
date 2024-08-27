@@ -48,9 +48,8 @@ function create(req, res) {
         } = {}
     } = req.body;
 
-    const id = nextId();
     const newDish = {
-        id: id,
+        id: nextId(),
         name: name,
         description: description,
         price: price,
